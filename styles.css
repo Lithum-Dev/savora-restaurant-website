@@ -1,0 +1,358 @@
+
+/* ==============================
+   GLOBAL STYLES
+============================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #111111;
+    color: #F5F0E8;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* ==============================
+   HEADER
+============================== */
+
+header {
+    background-color: #1c1c1c;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 2px solid #c9a45c;
+}
+
+header h1 {
+    color: #c9a45c;
+    font-size: 36px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F5F0E8;
+    font-size: 16px;
+    padding: 10px 15px;
+    font-weight: 500;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #c9a45c;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+}
+
+/* ==============================
+   HOME SECTION
+============================== */
+
+#home {
+    padding: 90px 20px;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 32px;
+    color: #c9a45c;
+    margin-bottom: 15px;
+}
+
+#home p {
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 650px;
+    margin: 0 auto 25px;
+}
+
+#home a {
+    text-decoration: none;
+    color: #111111;
+    background-color: #c9a45c;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#home a:hover {
+    background-color: #b08d45;
+}
+
+/* ==============================
+   ABOUT SECTION
+============================== */
+
+#about {
+    padding: 70px 40px;
+    background-color: #161616;
+    text-align: center;
+}
+
+#about h2 {
+    color: #c9a45c;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+#about p {
+    max-width: 750px;
+    margin: 0 auto 18px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* ==============================
+   MENU SECTION
+============================== */
+
+#menu {
+    padding: 70px 40px;
+    text-align: center;
+}
+
+#menu > h2 {
+    color: #c9a45c;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+#menu > div {
+    background-color: #1c1c1c;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 30px;
+    max-width: 750px;
+    margin: 25px auto;
+}
+
+#menu h3 {
+    color: #c9a45c;
+    font-size: 23px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#menu h4 {
+    color: #F5F0E8;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#menu p {
+    color: #c5c0b8;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-top: 0;
+}
+
+/* ==============================
+   WHY CHOOSE SAVORA
+============================== */
+
+#why-choose-us {
+    padding: 70px 40px;
+    background-color: #161616;
+    text-align: center;
+}
+
+#why-choose-us > h2 {
+    color: #c9a45c;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.feature {
+    background-color: #1c1c1c;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 30px;
+    max-width: 750px;
+    margin: 20px auto;
+}
+
+.feature h3 {
+    color: #c9a45c;
+    font-size: 21px;
+    margin-top: 0;
+}
+
+.feature p {
+    color: #c5c0b8;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+/* ==============================
+   CONTACT SECTION
+============================== */
+
+#contact {
+    padding: 70px 30px;
+    text-align: center;
+}
+
+#contact > h2 {
+    color: #c9a45c;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#contact > p {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    line-height: 1.8;
+}
+
+#contact address {
+    font-style: normal;
+    color: #c5c0b8;
+    margin: 25px 0;
+}
+
+#contact a {
+    color: #c9a45c;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* ==============================
+   CONTACT FORM
+============================== */
+
+form {
+    background-color: #1c1c1c;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    max-width: 550px;
+    margin: 40px auto 0;
+    padding: 35px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #c9a45c;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #111111;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    color: #F5F0E8;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #c9a45c;
+}
+
+form button {
+    background-color: #c9a45c;
+    color: #111111;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px 5px 5px 0;
+}
+
+form button:hover {
+    background-color: #b08d45;
+}
+
+form button[type="reset"] {
+    background-color: #333333;
+    color: #F5F0E8;
+}
+
+form button[type="reset"]:hover {
+    background-color: #444444;
+}
+
+/* ==============================
+   RESPONSIVE DESIGN
+============================== */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 20px 10px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav ul {
+        gap: 8px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #home {
+        padding: 60px 20px;
+    }
+
+    #home h2 {
+        font-size: 25px;
+    }
+
+    #about,
+    #menu,
+    #why-choose-us,
+    #contact {
+        padding: 50px 20px;
+    }
+
+    #menu > div,
+    .feature {
+        padding: 22px;
+    }
+
+    form {
+        padding: 22px;
+    }
+}
